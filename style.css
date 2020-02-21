@@ -17,23 +17,43 @@ body {
 }
 
 .item {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
     border-radius: 5px;
     padding: 20px; 
     margin: 10px; 
+    min-width: 150px;
+}
+
+a {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+.close-icon {
+    float: right;
+    cursor: pointer;
+    z-index: 2;
 }
 
 .name {
-
-}
-
-h3 {
-    display: inline-block;
-    margin-left: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
 }
 
 .name img {
     height: 20px;
     width: 20px; 
-    vertical-align: text-bottom;
+    vertical-align: sub;
+    margin-right: 5px;
 }
