@@ -21,6 +21,7 @@ h1 {
     border-radius: 5px; 
     cursor: pointer;
     text-align: center;
+    text-transform: uppercase;
     width: 275px;
     margin: auto;
 }
