@@ -23,7 +23,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     width: 275px;
-    margin: auto;
+    margin: 20px auto 10px;
 }
 
 h1:hover {
@@ -186,4 +186,9 @@ button:focus {
     to {
       opacity: 1;
     }
+}
+
+/* Media Query: Large Smartphone (Vertical) */
+@media screen and (max-width: 600px) {
+    .container { flex-direction: column; }
 }
