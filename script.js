@@ -39,16 +39,16 @@ function storeBookmark(e) {
   }
 
   let bookmark = {
-      name: nameValue,
-      url: urlValue
+    name: nameValue,
+    url: urlValue
   }
 
   /*
-      // Local Storage Test
-      localStorage.setItem('test', 'Hello World');
-      console.log(localStorage.getItem('test'));
-      localStorage.removeItem('test');
-      console.log(localStorage.getItem('test'));
+    // Local Storage Test
+    localStorage.setItem('test', 'Hello World');
+    console.log(localStorage.getItem('test'));
+    localStorage.removeItem('test');
+    console.log(localStorage.getItem('test'));
   */
 
   // Add bookmark to the array of bookmarks
