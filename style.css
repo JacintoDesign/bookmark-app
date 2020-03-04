@@ -142,9 +142,11 @@ h3 {
     width: 100%;
     padding: 5px;
     border: none;
-    border-bottom: 1px solid #79797959;
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
     display: block;
     transition: all 0.3s;
+    outline: none;
 }
 
 .form-label {
