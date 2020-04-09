@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
 
+* { box-sizing: border-box; }
+
 :root {
     --primary-color: #7c59b0;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 body {
@@ -30,7 +28,7 @@ h1:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* Items */
+/* Bookmarks */
 .container {
     display: flex;
     flex-direction: row;
@@ -109,6 +107,16 @@ a:hover, a:active {
     animation: modalopen 1s;
 }
 
+@keyframes modalopen {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+}
+
 .close-icon {
     float: right;
     color: white;
@@ -134,6 +142,7 @@ h3 {
     padding-bottom: 0;
 }
 
+/* Form */
 .form-group {
     height: 55px; 
 }
@@ -178,16 +187,6 @@ button:hover {
 
 button:focus {
     outline: none;
-}
-
-@keyframes modalopen {
-    from {
-      opacity: 0;
-    }
-  
-    to {
-      opacity: 1;
-    }
 }
 
 /* Media Query: Large Smartphone (Vertical) */
