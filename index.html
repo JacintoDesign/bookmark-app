@@ -5,29 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookmark App</title>
     <link rel="icon" type="image/png" href="https://s2.googleusercontent.com/s2/favicons?domain=www.jacinto.design">
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
-        integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
-        crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="show">Add Bookmark</h1>
-    
-    <div class="container" id="bookmarks-container">
-
-        <div class="item">
-            <i class="fas fa-times delete-icon" id="delete-bookmark" title="Delete Bookmark"></i>
-            <div class="name">
-                <img src="https://s2.googleusercontent.com/s2/favicons?domain=www.jacinto.design" alt="*">
-                <a href="http://jacinto.design" rel="no-opener" target="_blank">Jacinto Design</a>    
-            </div>                        
-        </div>
-
-    </div>
-
+    <!-- Open Modal -->
+    <h1 id="showModal">Add Bookmark</h1>
+    <!-- Bookmarks Container -->
+    <div class="container" id="bookmarks-container"></div>
     <!-- Modal -->
     <div class="modal-container" id="modal">
         <div class="modal">
@@ -37,10 +22,12 @@
             </div>
             <div class="modal-content">
                 <form id="bookmarkForm">
+                    <!-- Website Name -->
                     <div class="form-group">
                         <input class="form-input" type="text" id="websiteName" placeholder="Website Name">
                         <label class="form-label" for="websiteName">Website Name</label>
                     </div>
+                    <!-- Website URL -->
                     <div class="form-group">
                         <input class="form-input" type="text" id="websiteUrl" placeholder="Website URL">
                         <label class="form-label" for="websiteUrl">Website URL</label>
@@ -50,7 +37,7 @@
             </div>
         </div>
     </div>
-
+    <!-- Script -->
     <script src="script.js"></script>
 </body>
 </html>
