@@ -157,21 +157,12 @@ h3 {
   border: 2px solid var(--primary-color);
   border-radius: 5px;
   display: block;
-  transition: all 0.3s;
   outline: none;
 }
 
 .form-label {
   color: var(--primary-color);
   display: block;
-  transition: all 0.3s;
-  transform: translateY(0);
-}
-
-.form-input:placeholder-shown + .form-label {
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-4rem);
 }
 
 button {
@@ -182,6 +173,7 @@ button {
   height: 30px;
   width: 100px;
   border-radius: 5px;
+  margin-top: 10px;
 }
 
 button:hover {
